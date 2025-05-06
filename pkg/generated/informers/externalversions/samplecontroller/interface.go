@@ -18,8 +18,8 @@ limitations under the License.
 package samplecontroller
 
 import (
-	internalinterfaces "sample-controller/pkg/generated/informers/externalversions/internalinterfaces"
-	v1alpha1 "sample-controller/pkg/generated/informers/externalversions/samplecontroller/v1alpha1"
+	internalinterfaces "github.com/yao560909/sample-controller/pkg/generated/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/yao560909/sample-controller/pkg/generated/informers/externalversions/samplecontroller/v1alpha1"
 )
 
 // Interface provides access to each of this group's versions.

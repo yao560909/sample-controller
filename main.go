@@ -2,14 +2,14 @@ package main
 
 import (
 	"flag"
-	"time"
+	clientset "github.com/yao560909/sample-controller/pkg/generated/clientset/versioned"
+	informers "github.com/yao560909/sample-controller/pkg/generated/informers/externalversions"
+	"github.com/yao560909/sample-controller/pkg/signals"
 	kubeinformers "k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/klog/v2"
-	clientset "github.com/yao560909/sample-controller/pkg/generated/clientset/versioned"
-	informers "github.com/yao560909/sample-controller/pkg/generated/informers/externalversions"
-	"github.com/yao560909/sample-controller/pkg/signals"
+	"time"
 )
 
 var (

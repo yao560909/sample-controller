@@ -19,9 +19,9 @@ package v1alpha1
 
 import (
 	http "net/http"
-	scheme "sample-controller/pkg/generated/clientset/versioned/scheme"
 
 	samplecontrollerv1alpha1 "github.com/yao560909/sample-controller/pkg/apis/samplecontroller/v1alpha1"
+	scheme "github.com/yao560909/sample-controller/pkg/generated/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

@@ -19,12 +19,12 @@ package v1alpha1
 
 import (
 	context "context"
-	versioned "sample-controller/pkg/generated/clientset/versioned"
-	internalinterfaces "sample-controller/pkg/generated/informers/externalversions/internalinterfaces"
-	samplecontrollerv1alpha1 "sample-controller/pkg/generated/listers/samplecontroller/v1alpha1"
 	time "time"
 
 	apissamplecontrollerv1alpha1 "github.com/yao560909/sample-controller/pkg/apis/samplecontroller/v1alpha1"
+	versioned "github.com/yao560909/sample-controller/pkg/generated/clientset/versioned"
+	internalinterfaces "github.com/yao560909/sample-controller/pkg/generated/informers/externalversions/internalinterfaces"
+	samplecontrollerv1alpha1 "github.com/yao560909/sample-controller/pkg/generated/listers/samplecontroller/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

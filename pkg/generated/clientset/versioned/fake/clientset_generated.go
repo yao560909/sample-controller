@@ -18,10 +18,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "sample-controller/pkg/generated/clientset/versioned"
-	samplecontrollerv1alpha1 "sample-controller/pkg/generated/clientset/versioned/typed/samplecontroller/v1alpha1"
-	fakesamplecontrollerv1alpha1 "sample-controller/pkg/generated/clientset/versioned/typed/samplecontroller/v1alpha1/fake"
-
+	clientset "github.com/yao560909/sample-controller/pkg/generated/clientset/versioned"
+	samplecontrollerv1alpha1 "github.com/yao560909/sample-controller/pkg/generated/clientset/versioned/typed/samplecontroller/v1alpha1"
+	fakesamplecontrollerv1alpha1 "github.com/yao560909/sample-controller/pkg/generated/clientset/versioned/typed/samplecontroller/v1alpha1/fake"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"

@@ -19,12 +19,12 @@ package externalversions
 
 import (
 	reflect "reflect"
-	versioned "sample-controller/pkg/generated/clientset/versioned"
-	internalinterfaces "sample-controller/pkg/generated/informers/externalversions/internalinterfaces"
-	samplecontroller "sample-controller/pkg/generated/informers/externalversions/samplecontroller"
 	sync "sync"
 	time "time"
 
+	versioned "github.com/yao560909/sample-controller/pkg/generated/clientset/versioned"
+	internalinterfaces "github.com/yao560909/sample-controller/pkg/generated/informers/externalversions/internalinterfaces"
+	samplecontroller "github.com/yao560909/sample-controller/pkg/generated/informers/externalversions/samplecontroller"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

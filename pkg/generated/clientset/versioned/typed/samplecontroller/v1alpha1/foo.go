@@ -19,9 +19,9 @@ package v1alpha1
 
 import (
 	context "context"
-	scheme "sample-controller/pkg/generated/clientset/versioned/scheme"
 
 	samplecontrollerv1alpha1 "github.com/yao560909/sample-controller/pkg/apis/samplecontroller/v1alpha1"
+	scheme "github.com/yao560909/sample-controller/pkg/generated/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
