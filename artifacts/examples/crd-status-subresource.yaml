@@ -12,6 +12,13 @@ spec:
     - name: v1alpha1
       served: true
       storage: true
+      additionalPrinterColumns:
+        - name: Available
+          type: string
+          jsonPath: .status.availableReplicas
+        - name: Age
+          type: date
+          jsonPath: .metadata.creationTimestamp
       schema:
         # schema used for validation
         openAPIV3Schema:
